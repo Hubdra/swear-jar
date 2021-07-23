@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from '@material-ui/core';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Button variant="contained" color="primary">
+        SWEAR TO ME!
+      </Button>
     </div>
   );
 }
